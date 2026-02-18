@@ -18,8 +18,4 @@ config = vault.get_config()
 token = vault.get_secret("api_token")
 ```
 
-## Modes
-
-- Default (`STONEKEEP_MODE` unset): uses the Stonekeep Guardian service.
-- Dev mode (`STONEKEEP_MODE=dev`): stores profile data in local JSON files for local testing.
-
+This package is production-only and talks to the Stonekeep Guardian service.
